@@ -15,6 +15,8 @@ Comparing 300m walking access to bakeries/boulangeries between Paris (High Densi
 ## Methodology
 We define "access" as any residential building footprint located within 300 meters of a 'bakery' or 'boulangerie' place category. Results are aggregated into H3 hexagons to visualize density.
 
-## Data Attribution/Credits
-Data Source: Overture Maps Foundation
-License: CDLA-Permissive-2.0
+## Data Attribution
+This project uses data from the [Overture Maps Foundation](https://overturemaps.org). 
+
+* **Dataset:** Overture Maps Places and Buildings layers.
+* **License:** This work is made possible by the [Community Data License Agreement – Permissive, Version 2.0](https://cdla.dev/permissive-2-0/).
