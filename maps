@@ -1,1 +1,354 @@
-
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": [
+            "-3alisd"
+          ],
+          "id": "mh8j1te7o",
+          "name": [
+            "city_name"
+          ],
+          "type": "multiSelect",
+          "value": [
+            "Paris",
+            "San Francisco"
+          ],
+          "plotType": {
+            "type": "histogram"
+          },
+          "animationWindow": "free",
+          "yAxis": null,
+          "view": "side",
+          "speed": 1,
+          "enabled": true
+        }
+      ],
+      "layers": [
+        {
+          "id": "x6b0un",
+          "type": "hexagonId",
+          "config": {
+            "dataId": "-3alisd",
+            "label": "bakery_within_300_meters.csv",
+            "color": [
+              34,
+              63,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "hex_id": "h3_id"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#4C0035",
+                  "#880030",
+                  "#B72F15",
+                  "#D6610A",
+                  "#EF9100",
+                  "#FFC300"
+                ]
+              },
+              "filled": true,
+              "opacity": 0.8,
+              "outline": true,
+              "strokeColor": null,
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#4C0035",
+                  "#880030",
+                  "#B72F15",
+                  "#D6610A",
+                  "#EF9100",
+                  "#FFC300"
+                ]
+              },
+              "strokeOpacity": 0.8,
+              "thickness": 2,
+              "coverage": 1,
+              "enable3d": false,
+              "sizeRange": [
+                0,
+                500
+              ],
+              "coverageRange": [
+                0,
+                1
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "fixedHeight": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "middle",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [
+                  255,
+                  0,
+                  0,
+                  255
+                ],
+                "background": false,
+                "backgroundColor": [
+                  0,
+                  0,
+                  200,
+                  255
+                ]
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "access_pct",
+              "type": "integer"
+            },
+            "colorScale": "quantize",
+            "strokeColorField": {
+              "name": "buildings_with_access",
+              "type": "integer"
+            },
+            "strokeColorScale": "quantize",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "coverageField": null,
+            "coverageScale": "linear"
+          }
+        }
+      ],
+      "effects": [],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "-3alisd": [
+              {
+                "name": "city_name",
+                "format": null
+              },
+              {
+                "name": "buildings_in_hex",
+                "format": null
+              },
+              {
+                "name": "buildings_with_access",
+                "format": null
+              },
+              {
+                "name": "access_pct",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": true,
+          "compareType": "absolute",
+          "enabled": false
+        },
+        "brush": {
+          "size": 0,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "overlayBlending": "normal",
+      "splitMaps": [
+        {
+          "layers": {
+            "x6b0un": true
+          }
+        },
+        {
+          "layers": {
+            "x6b0un": true
+          }
+        }
+      ],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      },
+      "editor": {
+        "features": [
+          {
+            "properties": {},
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -122.466950705906,
+                    37.7766453042954
+                  ],
+                  [
+                    -122.466312053807,
+                    37.7771516923447
+                  ],
+                  [
+                    -122.466519144509,
+                    37.7778217504112
+                  ],
+                  [
+                    -122.467364894202,
+                    37.7779854166243
+                  ],
+                  [
+                    -122.468003541927,
+                    37.7774790261916
+                  ],
+                  [
+                    -122.467796444333,
+                    37.7768089719293
+                  ],
+                  [
+                    -122.466950705906,
+                    37.7766453042954
+                  ]
+                ]
+              ]
+            },
+            "id": "bmvdd"
+          }
+        ],
+        "visible": true
+      }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 48.84048401620968,
+      "longitude": 2.3494950552621066,
+      "pitch": 0,
+      "zoom": 11.327900992556444,
+      "isSplit": true,
+      "isViewportSynced": false,
+      "isZoomLocked": true,
+      "splitMapViewports": [
+        {
+          "width": 150,
+          "height": 200,
+          "zoom": 11.327900992556444,
+          "pitch": 0,
+          "bearing": 0,
+          "latitude": 37.731003671244224,
+          "longitude": -122.50044170269994,
+          "dragRotate": false,
+          "minZoom": 0,
+          "maxZoom": 20,
+          "altitude": 1.5,
+          "maxPitch": 60,
+          "minPitch": 0,
+          "normalize": true,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "transitionDuration": 0
+        },
+        {
+          "width": 150,
+          "height": 200,
+          "zoom": 11.327900992556444,
+          "pitch": 0,
+          "bearing": 0,
+          "latitude": 48.84048401620968,
+          "longitude": 2.3494950552621066,
+          "dragRotate": false,
+          "minZoom": 0,
+          "maxZoom": 20,
+          "altitude": 1.5,
+          "maxPitch": 60,
+          "minPitch": 0,
+          "normalize": true,
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "transitionDuration": 0
+        }
+      ]
+    },
+    "mapStyle": {
+      "styleType": "dark-matter",
+      "topLayerGroups": {
+        "land": false,
+        "building": true,
+        "road": false,
+        "label": true
+      },
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        15.035172933000911,
+        15.035172933000911,
+        15.035172933000911
+      ],
+      "backgroundColor": [
+        0,
+        0,
+        0
+      ],
+      "mapStyles": {}
+    },
+    "uiState": {
+      "mapControls": {
+        "mapLegend": {
+          "active": true,
+          "settings": {
+            "position": {
+              "x": 881,
+              "anchorX": "left",
+              "y": 30,
+              "anchorY": "bottom"
+            },
+            "contentHeight": 126
+          }
+        }
+      }
+    }
+  }
+}
