@@ -15,11 +15,6 @@ Comparing 300m walking access to bakeries/boulangeries between Paris (High Densi
 ## Methodology
 We define "access" as any residential building footprint located within 300 meters of a 'bakery' or 'boulangerie' place category. Results are aggregated into H3 hexagons to visualize density.
 
-## 📍 Live Visualization
-View the interactive "Smell of Bread" map here: 
-**[Explore the Paris vs. SF Map] 
-https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/5pedb4cl03412jckor6ga/keplergl_i375xt.json?rlkey=5qrhbvjgj2mv37zvlsqhceha4&dl=0**
-
 ## Data Attribution
 This project uses data from the [Overture Maps Foundation](https://overturemaps.org). 
 
