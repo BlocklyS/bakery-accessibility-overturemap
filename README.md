@@ -21,4 +21,19 @@ This project uses data from the [Overture Maps Foundation](https://overturemaps.
 * **Dataset:** Overture Maps Places and Buildings layers.
 * **License:** This work is made possible by the [Community Data License Agreement – Permissive, Version 2.0](https://cdla.dev/permissive-2-0/).
 
+* 📍 Quick Start Guide
+1. How to View the Map
+-- I have exported the map configuration so you can view the interactive dual-city visualization without needing to write any code:
+* Download the maps/bread_map.json file from this repository.
+* Go to Kepler.gl/demo.
+* Drag and drop the JSON file into the browser window.
+
+2. How to Run the Query
+-- If you want to reproduce the data or change the radius:
+* Open the BigQuery Console.
+* Please make sure you have access to the bigquery-public-data project.
+* Copy the content of sql/bread_query.sql and paste it into a new query tab.
+* Click Run.
+* Export the results as a CSV to update the visualization data.
+
   
