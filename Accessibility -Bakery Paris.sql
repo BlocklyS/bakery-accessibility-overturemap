@@ -1,3 +1,4 @@
+--Data Source: Overture Maps Foundation, overturemaps.org.
 WITH cities AS (
   SELECT names.primary AS city_name, country, geometry AS city_geom
   FROM `bigquery-public-data.overture_maps.division_area`
@@ -66,4 +67,5 @@ SELECT
 FROM combined_data
 GROUP BY city_name, h3_id 
 ORDER BY city_name, access_pct DESC
+
 LIMIT 20000;
