@@ -36,4 +36,13 @@ This project uses data from the [Overture Maps Foundation](https://overturemaps.
 * Click Run.
 * Export the results as a CSV to update the visualization data.
 
+  ## Technical notes
+
+This analysis surfaced several non-obvious geospatial behaviors
+(BigQuery regional UDFs, spatial scale effects, row-level EXISTS).
+
+These are documented in detail in the Geo Analytics Playbook:
+👉 https://github.com/BlocklyS/geo-analytics-playbook
+
+
   
