@@ -21,7 +21,7 @@ This project uses data from the [Overture Maps Foundation](https://overturemaps.
 * **Dataset:** Overture Maps Places and Buildings layers.
 * **License:** This work is made possible by the [Community Data License Agreement – Permissive, Version 2.0](https://cdla.dev/permissive-2-0/).
 
-* Quick Start Guide
+## Quick Start Guide
 1. How to View the Map
 -- I have exported the map configuration so you can view the interactive dual-city visualization without needing to write any code:
 * Download the maps/bread_map.json file from this repository.
