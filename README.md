@@ -28,6 +28,9 @@ This project uses data from the [Overture Maps Foundation](https://overturemaps.
 * Go to Kepler.gl/demo.
 * Drag and drop the JSON file into the browser window.
 
+## Project Note: 
+> This analysis highlights the contrast between "Organic Urbanism" (Paris) and "Planned Grid Urbanism" (San Francisco). While both cities are world-class, the "Smell of Bread" index serves as a proxy for 15-minute city viability—measuring how essential services are integrated into residential life.
+
 ## Technical notes
 
 This analysis surfaced several non-obvious geospatial behaviors
